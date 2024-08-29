@@ -1,3 +1,7 @@
-h1 {
-    color: primary;
+#responsive-logo {
+    border-radius: 10px;
+}
+
+.title-nav{
+    color: black;
 }
