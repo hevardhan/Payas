@@ -3,7 +3,7 @@ import './css/AboutUs.css';
 
 const AboutUs = () => {
     return (
-        <section className="about-us">
+        <div className="about-us pt-5">
             <h2>About Us</h2>
             <p className="about-us-description">
                 Payas Technologies is a leading IT hub specializing in IT Training, Placement, and Recruitment.
@@ -12,7 +12,7 @@ const AboutUs = () => {
                 Our innovative approach and deep industry insight make us a trusted partner for skill enhancement,
                 talent acquisition, and staying ahead in the competitive digital realm.
             </p>
-            <div className="about-us-features">
+            <div className="about-us-features mt-5">
                 <div className="feature-box">
                     <div className="icon">&#x1F4BB;</div>
                     <h3>Comprehensive IT Training</h3>
@@ -38,7 +38,7 @@ const AboutUs = () => {
                     </p>
                 </div>
             </div>
-        </section>
+        </div>
     );
 };
 
