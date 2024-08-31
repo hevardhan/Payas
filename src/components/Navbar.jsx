@@ -42,7 +42,7 @@ const Navbar = () => {
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1">
             <li class="nav-item h6 m-0 p-0">
-              <a class="nav-link ms-lg-3" href="#about">
+              <a class="nav-link ms-lg-3" href="#home">
                 Home
               </a>
             </li>

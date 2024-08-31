@@ -5,9 +5,9 @@ import Navbar from './components/Navbar';
 import React, { useEffect } from "react";
 
 function App() {
-  useEffect(() => {
-    window.location.hash = '#home';
-  }, []);
+  // useEffect(() => {
+  //   window.location.hash = '#home';
+  // }, []);
   
   return (
     <>
