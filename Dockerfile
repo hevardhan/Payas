@@ -10,17 +10,8 @@ RUN npm install
 # Copy the source code
 COPY . ./
 
-# Build the Vite app
-RUN npm run build
+# Step 2: Run the Vite app in development mode
+CMD ["npm", "run", "dev", "--", "--host"]
 
-# Step 2: Serve the Vite app with NGINX
-FROM nginx:alpine
-
-# Copy the build output from the previous stage to the NGINX directory
-COPY --from=build /app/dist /usr/share/nginx/html
-
-# Expose port 80 to access the app
+# Expose the port where the Vite development server will run
 EXPOSE 80
-
-# Start NGINX server
-CMD ["nginx", "-g", "daemon off;"]
