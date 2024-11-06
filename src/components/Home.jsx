@@ -10,7 +10,7 @@ const Home = () => {
       </div>
       <div className="home-buttons d-flex my-3 gap-5">
           <button className="right">
-            Get Started
+            Explore More
           </button>
           <button className="left">
             Contact Us

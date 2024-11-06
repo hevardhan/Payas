@@ -6,6 +6,15 @@
     color: black;
 }
 
+/* Navbar.css */
+.navbar {
+  transition: backdrop-filter 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  backdrop-filter: blur(50px);
+  background-color: rgba(135, 133, 133, 0.073);
+}
 
 .navbar a,p{
     transition: 0.1s ease;
